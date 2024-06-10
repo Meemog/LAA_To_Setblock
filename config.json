@@ -1,5 +1,6 @@
 {
     "inputName": "input.txt",
+    "outputName": "out.txt",
     "exceptions": 
         {
             "Redstone Comparator": "comparator"
