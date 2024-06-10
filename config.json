@@ -1,0 +1,7 @@
+{
+    "inputName": "input.txt",
+    "exceptions": 
+        {
+            "Redstone Comparator": "comparator"
+        }
+}
