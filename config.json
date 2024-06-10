@@ -1,6 +1,7 @@
 {
     "inputName": "input.txt",
     "outputName": "out.txt",
+    "outputVessel": "chest",
     "exceptions": 
         {
             "Redstone Comparator": "comparator"
