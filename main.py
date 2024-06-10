@@ -31,14 +31,14 @@ def commandify(input_arr):
             tmp_command_arr.append(f"{{Slot:{i},id:{stack_arr[total][0]},Count:{stack_arr[total][1]}}}")
             total += 1
         tmp_command_text = ",".join(tmp_command_arr)
-        commands.append(f"/setblock ~{1+j} ~ ~ red_shulker_box{{CustomName:\"\\\"{j+1}\\\"\",Items:[{tmp_command_text}]}} replace")
+        commands.append(f"/setblock ~{-1-j} ~ ~ chest{{CustomName:\"\\\"{j+1}\\\"\",Items:[{tmp_command_text}]}} replace")
     tmp_command_arr = []
     for i in range(chest_remainder):
         tmp_command_arr.append(f"{{Slot:{i},id:{stack_arr[total][0]},Count:{stack_arr[total][1]}}}")
         total += 1
     tmp_command_text = ",".join(tmp_command_arr)
     j+=1
-    commands.append(f"/setblock ~{1+j} ~ ~ red_shulker_box{{CustomName:\"\\\"{j+1}\\\"\",Items:[{tmp_command_text}]}} replace")
+    commands.append(f"/setblock ~{-1-j} ~ ~ chest{{CustomName:\"\\\"{j+1}\\\"\",Items:[{tmp_command_text}]}} replace")
     
     return commands
     
