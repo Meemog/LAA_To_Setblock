@@ -31,7 +31,7 @@ class Converter:
         chest_remainder = len(stack_arr) % 27
         commands = []
         total = 0
-        
+        j=0
         for j in range(no_chests):
             tmp_command_arr = []
             for i in range(27):
