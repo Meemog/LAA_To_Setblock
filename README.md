@@ -14,17 +14,15 @@
 
 ![](/img/3.png)
 
-5. Go to `/.minecraft/config/litematica/` and find the `.txt` file
+5. Run `gui.py` with python and click `Choose File`
+
+6. Go to `/.minecraft/config/litematica/` and find the `.txt` file
 
 ![](/img/4.png)
 
-6. Place it in the same folder as the `main.py` and rename it as `input.txt`
+7. Choose what to name the output
 
-![](/img/5.png)
-
-7. Run `main.py` with python
-
-8. Your commands should be in `out.txt`
+8. Your commands should be shown in your default text editor
 
 ![](/img/6.png)
 
